@@ -5,9 +5,11 @@ description = "Tool that allows the assignment of events to definite timestamps"
 authors = ["Tim Lucas Sabelmann <tsa@ecap-mobility.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8 <3.10"
+PySide2 = "^5.15.1"
 
 [tool.poetry.dev-dependencies]
+pytest = "^6.1.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
