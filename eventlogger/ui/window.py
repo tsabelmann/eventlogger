@@ -37,7 +37,7 @@ class MainWindow(QtCore.QObject):
 
         # Timer
         self.timer = QtCore.QTimer()
-        self.timer.setInterval(1000)
+        self.timer.setInterval(500)
         self.timer.timeout.connect(self.on_update_datetime)
         self.timer.start()
 
