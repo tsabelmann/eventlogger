@@ -1,2 +1,3 @@
 # eventlogger
 
+Small program
