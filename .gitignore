@@ -1,0 +1,7 @@
+# Idea
+.idea
+
+# Python
+dist
+.venv
+__pycache__
