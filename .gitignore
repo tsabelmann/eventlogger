@@ -5,3 +5,7 @@
 dist
 .venv
 __pycache__
+
+# Logs
+logs
+*.csv
